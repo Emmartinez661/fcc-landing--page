@@ -1,0 +1,219 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    
+    box-shadow: -1px 1px 7px 0px rgba(0,0,0,0.75);
+    border-radius:4px;
+    padding: 10px;
+    background: rgb(238,203,174);
+    background: radial-gradient(circle, rgba(238,203,174,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+ .main, footer{
+    
+    width: 90%;
+    margin: auto;
+   
+
+}
+
+
+
+.logo{
+    
+    float: left;
+    height: 90px;
+    width: 30%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.logo img{
+    max-width: 100%;
+}
+
+header {
+    width: 100%;
+    position:fixed;
+    min-height:100px ;
+    display: flex;
+    align-items:center;
+    z-index: 100;
+    top:0px;
+    left: 0;
+    padding-top: 20px;
+    list-style-type: none;
+    background: rgb(160,193,233);
+background: linear-gradient(90deg, rgba(160,193,233,1) 0%, rgba(221,234,238,1) 35%, rgba(110,231,229,0.7931372378052783) 100%);
+}
+
+
+
+.navbar a {
+    padding: 20px 85px 0  0;
+    float: right;
+    margin-right:25px ;
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+
+
+.form-email >form{
+
+    margin-top:140px;
+    display: flex;
+    flex-direction: column;
+    
+    text-align: center;
+}
+
+form #email{
+    
+    align-self: center;
+    width: 250px;
+    height: 25px;
+    padding: 5px;
+    margin: 10px;
+}
+
+form #submit{
+    margin-top: 5px;
+    width: 150px;
+    height: 35PX;
+    align-self: center;
+    font-weight: 600;
+    font-size: 16px;
+    background: rgb(238,182,36);
+background: linear-gradient(90deg, rgba(238,182,36,1) 0%, rgba(235,176,121,1) 100%);
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+
+.main >div.subtitle-landing{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 650px;
+    font-size: 18px;
+    padding-top:45px;
+    text-align:justify;
+    margin-right:150px;
+
+}
+
+
+
+.main .icon-sub{
+    
+    margin: 45px 30px 30px 200px;
+    position: absolute;
+    color:  rgb(184, 138, 23);
+   
+
+}
+
+.video-box{
+    display:flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.video-box >iframe{
+    max-width: 560px;
+    width: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+.cards{
+    width: 100%;
+    
+    
+    
+    
+    
+   
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-card{
+    margin: 8px;
+    width: 300px;
+    border: 2px solid black;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.title-card{
+    font-weight: 700;
+    font-size: 16px;
+    padding:10px 40px;
+    background: rgb(235, 230, 252);
+}
+
+.price-card{
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    font-weight: 800;
+    font-size: 30px ;
+}
+
+.content-card{
+    padding-top:5px;
+    padding-bottom: 10px;
+}
+
+.button-card{
+    padding:5px;
+    width: 80px;
+    margin: auto;
+    cursor: pointer;
+    font-size: 20px;
+    background: rgb(238,182,36);
+    background: linear-gradient(90deg, rgba(238,182,36,1) 0%, rgba(235,176,121,1) 100%);
+}
+
+.button-card:hover{
+    background: rgb(165, 125, 24);
+    background: linear-gradient(90deg, rgb(139, 109, 33) 0%, rgb(184, 136, 91) 100%); ;
+}
+
+footer{
+    width: 70%;
+    height: 70px;
+    background:rgba(235, 230, 252) ;
+    margin: 20px auto 0 auto ; 
+    display:flex;
+    justify-content: flex-end;
+    
+    align-items: center;
+}
+
+footer .title-footer{
+    display: inline;
+    margin: 15px;
+    
+    
+}
+
+.descrip-footer{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
